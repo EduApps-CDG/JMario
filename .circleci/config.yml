@@ -14,13 +14,13 @@ jobs:
          name: Chmod permissions #if permission for Gradlew Dependencies fail, use this.
          command: sudo chmod +x ./gradlew
       - run:
-      	 name: Downloading gradle
+         name: Downloading gradle
       	 command: wget https://services.gradle.org/distributions/gradle-5.0-bin.zip -P /tmp
       - run:
-      	 name: extracting gradle
+         name: extracting gradle
       	 command: sudo unzip -d /opt/gradle /tmp/gradle-*.zip
       - run:
-      	 name: exporting vars
+         name: exporting vars
       	 command: export GRADLE_HOME=/opt/gradle/gradle-5.0 && export PATH=${GRADLE_HOME}/bin:${PATH} && sudo chmod +x /etc/profile.d/gradle.sh && source /etc/profile.d/gradle.sh
       - run:
           name: generating wrapper
