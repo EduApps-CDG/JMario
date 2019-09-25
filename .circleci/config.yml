@@ -1,30 +1,3 @@
-
-CircleCI HomeGo to app
-Search Documentation
- Configuration
-Language Guide: Android
-This document describes how to set up an Android project on CircleCI in the following sections.
-
-Sample Configuration
-Config Walkthrough
-Docker Images
-Testing With Firebase Test Lab
-Deployment
-Troubleshooting
-Handling Out Of Memory Errors
-Deploying to Google Play Store
-Overview
-This guide provides an introduction to Android development on CircleCI. If you are looking for a .circleci/config.yml template for Android, see the Sample Configuration section of this document.
-
-Note: Running the Android emulator is not supported by the type of virtualization CircleCI uses on Linux. To run emulator tests from a job, consider using an external service like Firebase Test Lab. For more details, see the Testing With Firebase Test Lab section below.
-
-Prerequisites
-This guide assumes the following:
-
-You are using Gradle to build your Android project. Gradle is the default build tool for projects created with Android Studio.
-Your project is located in the root of your VCS repository.
-The project’s application is located in a subfolder named app.
-Sample Configuration
 version: 2
 jobs:
   build:
