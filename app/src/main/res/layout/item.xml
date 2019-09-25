@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:gravity="center">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Small Text"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_weight="1.0"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="X:"
+		android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_height="wrap_content"
+		android:text="-"/>
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:inputType="number"
+		android:layout_height="wrap_content"
+		android:ems="2"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_height="wrap_content"
+		android:text="+"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Y:"
+		android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_height="wrap_content"
+		android:text="-"/>
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:inputType="number"
+		android:layout_height="wrap_content"
+		android:ems="2"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_height="wrap_content"
+		android:text="+"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_height="wrap_content"
+		android:text="ADD"/>
+
+</LinearLayout>
+
